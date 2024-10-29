@@ -86,6 +86,7 @@ main{
             display: flex;
             justify-content:space-evenly;
             align-items: center;
+            flex-wrap: wrap;
         }
     }
     .marcasSec{
@@ -149,10 +150,12 @@ main{
             display: flex;
             justify-content:space-evenly;
             align-items: center;
+            flex-wrap: wrap;
         }
     }
     .item{
         padding: 2.5vh 2.5vh;
+        margin-bottom: 3vh;
         /*background-color: blue;*/
         width: 35vh;
         height: 50vh;
