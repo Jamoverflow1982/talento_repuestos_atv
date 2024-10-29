@@ -156,6 +156,13 @@ main{
         /*background-color: blue;*/
         width: 35vh;
         height: 50vh;
+        box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
+        -webkit-box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
+        -moz-box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
+        border-top-left-radius: 5vh;
+        border-top-right-radius: 5vh;
+        border-bottom-left-radius: 5vh;
+        border-bottom-right-radius: 5vh;
         img{
             height: 40vh;
             border-top-left-radius: 5vh;
