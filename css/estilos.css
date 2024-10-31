@@ -7,9 +7,9 @@
     font-family: "Kanit", sans-serif;
 }
 body{
-    background-color: #000000;
-    /*background-image: url(../assets/img/fondo3.jpg);
-    background-size: cover;*/
+    /*background-color: #000000;*/
+    background-image: url(../assets/img/fondorep.jpg);
+    background-repeat: repeat;
 }
 header{
     width: 100%;
