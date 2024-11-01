@@ -80,6 +80,7 @@ main{
             color: #ff0000;
         }
         img{
+            padding-top: 3vh;
             height: 30vh;
         }
         .ofertas{
@@ -155,11 +156,15 @@ main{
         }
     }
     .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 2.5vh 2.5vh;
         margin-bottom: 3vh;
         /*background-color: blue;*/
         width: 35vh;
-        height: 50vh;
+        height: 70vh;
         box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
         -webkit-box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
         -moz-box-shadow: 1px 2px 24px 10px rgba(255,255,255,0.75);
@@ -186,6 +191,24 @@ main{
             font-size: 5vh;
             color: rgb(240, 65, 65);
             text-align: center;
+            padding-bottom: 1vh;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25vh;
+            height: 7vh;
+            background-color: #00da1d;
+            border: solid 1vh #20f03c;
+            border-top-left-radius: 2.5vh;
+            border-bottom-right-radius: 2.5vh;
+            text-decoration: none;
+            font-size: 3vh;
+            color: rgb(255, 255, 255);
+            span{
+                font-size: 3vh;
+            }
         }
     }
     .formulario{
