@@ -35,6 +35,9 @@ header{
                     text-decoration: none;
                     color: #e9bf8f;
                 }
+                .iconos{
+                    display: none;
+                }
             }
         }
         .fa-envelope{
@@ -292,6 +295,159 @@ footer{
             bottom: 10vh;
             font-size: 8vh;
             color: #20f03c;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    header{
+        position:relative;
+        padding: 0vh 1vh;
+        padding-top: 1vh;
+        background: rgb(0,0,0);
+        nav{
+            ul{
+                li{
+                    margin-right: 2vh;
+                    .mostrarLink{
+                        display: none;
+                    }
+                    .iconos{
+                        color: white;
+                        display: inline-block;
+                        font-size: 5vh;
+                    }
+                }
+            }
+        }
+        .logo{
+            height: 15vh;
+        }
+    }
+    main{
+        .sectionTitulo{
+            padding: 1vh;
+            font-size: 2vh;
+            p{
+                padding-top: 3vh;
+                font-size: 1rem;
+            }
+            img{
+                height: 12vh;
+            }
+        }
+        .titulo{
+            font-size: 6vh;
+        }
+        .secRepTitulo{
+            h2{
+                padding: 0.2vh;
+                padding-bottom: 4vh;
+                font-size: 5vh;
+            }
+            img{
+                padding-top: 1vh;
+                height: 20vh;
+            }
+            .ofertas{
+                padding: 0;
+            }
+        }
+        .marcasSec{
+            h2{
+                font-size: 4vh;
+            }
+            p{
+                font-size: 1.2rem;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                /*backdrop-filter: blur(5px);*/
+            }
+            .marcas{
+                flex-wrap: wrap;
+            }
+            .marcasImg{
+                width: 20vh;
+            }
+        }
+        .accesoriosSec{
+            padding: 1vh;
+            padding-top: 3vh;
+            h2{
+                font-size: 5vh;
+            }
+            img{
+                width: 20vh;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        .ofertasSec{
+            h2{
+                font-size: 5vh;
+                padding-top: 3vh;
+            }
+            .ofertas{
+                padding: 0;
+            }
+        }
+        .item{
+            width: 20vh;
+            height: 50vh;
+            img{
+                height: 40vh;
+                border-top-left-radius: 5vh;
+                border-top-right-radius: 5vh;
+                border-bottom-left-radius: 5vh;
+                border-bottom-right-radius: 5vh;
+                width: 100%;
+                height: 70%;
+                /*object-fit: cover;*/
+            }
+            p{
+                font-size: 4vh;
+            }
+        }
+        .divForm{
+            width: 100%;
+            padding-bottom: 2vh;
+            h2{
+                padding-top: 2vh;
+                font-size: 5vh;
+            }
+        }
+        .formCont{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    footer{
+        flex-direction: column;
+        align-items: center;
+        nav{
+            display: none;
+            }
+        address{
+            padding-top: 1vh;
+            text-align: center;
+        }
+        .centradoFlex{
+            font-size: 2.5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo{
+            height: 18vh;
+        }
+        .redes{
+            a{
+                color: white;
+                font-size: 6vh;
+                margin-left: 10px;
+            }
         }
     }
 }
