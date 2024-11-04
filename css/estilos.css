@@ -7,6 +7,7 @@
     font-family: "Kanit", sans-serif;
 }
 body{
+    font-size: 16px;
     /*background-color: #000000;*/
     background-image: url(../assets/img/fondorep.jpg);
     background-repeat: repeat;
@@ -31,7 +32,7 @@ header{
                 display: inline-block;
                 margin-right: 6vh;
                 a{
-                    font-size: 3.2vh;
+                    font-size: 1.5em;
                     text-decoration: none;
                     color: #e9bf8f;
                 }
@@ -41,11 +42,11 @@ header{
             }
         }
         .fa-envelope{
-            font-size: 5vh;
+            font-size: 1.4em;
             color: white;
         }
         .fa-cart-shopping{
-            font-size: 5vh;
+            font-size: 1.4em;
             color: yellow;
         }
     }
@@ -57,7 +58,7 @@ main{
     .sectionTitulo{
         padding: 5vh;
         text-align: center;
-        font-size: 4vh;
+        font-size: 1.5em;
         color: #adabab;
         p{
             padding: 20px;
@@ -69,16 +70,15 @@ main{
     }
     .titulo{
         font-family: "Protest Strike", sans-serif;
-        font-size: 11vh;
+        font-size: 2em;
         color: #ff0000;
     }
     .secRepTitulo{
         text-align: center;
-        font-size: 2vh;
         color: #adabab;
         h2{
             padding: 5vh;
-            font-size: 7vh;
+            font-size: 2em;
             text-align: center;
             color: #ff0000;
         }
@@ -100,7 +100,7 @@ main{
         background-size: cover;
         background-position: center;*/
         h2{
-            font-size: 7vh;
+            font-size: 3em;
             color: #ff0000;
             text-align: center;
         }
@@ -129,7 +129,7 @@ main{
         background-size:cover;
         background-position: left;*/
         h2{
-            font-size: 7vh;
+            font-size: 3em;
             color: #ff0000;
             text-align: center;
         }
@@ -145,7 +145,7 @@ main{
     }
     .ofertasSec{
         h2{
-            font-size: 7vh;
+            font-size: 3em;
             color: #ff0000;
             text-align: center;
             padding: 0 5vh 5vh 5vh;
@@ -186,12 +186,12 @@ main{
             /*object-fit: cover;*/
         }
         h3{
-            font-size: 2vh;
+            font-size: 0.8em;
             color: white;
             text-align: center;
         }
         p{
-            font-size: 5vh;
+            font-size: 2em;
             color: rgb(240, 65, 65);
             text-align: center;
             padding-bottom: 1vh;
@@ -207,15 +207,15 @@ main{
             border-top-left-radius: 2.5vh;
             border-bottom-right-radius: 2.5vh;
             text-decoration: none;
-            font-size: 3vh;
+            font-size: 1.2em;
             color: rgb(255, 255, 255);
             span{
-                font-size: 3vh;
+                font-size: 1.2em;
             }
         }
     }
     .formulario{
-        font-size: 3vh;
+        font-size: 1em;
         color: white;
         display: flex;
         flex-direction: column;
@@ -226,7 +226,7 @@ main{
         width: 50%;
         h2{
             padding: 2vh;
-            font-size: 5vh;
+            font-size: 2.5em;
             color: #ff0000;
             text-align: center;
         }
@@ -241,12 +241,12 @@ footer{
     justify-content: space-between;
     background: #000000;
     padding: 20px 80px;
-    font-size: 3vh;
+    font-size: 1em;
     h3{
         color: #ff0000;
     }
     nav{
-        font-size: 2.2vh;
+        font-size: 1em;
         ul{
             list-style: none;
             li{
@@ -265,7 +265,7 @@ footer{
         color: white;
     }
     .centradoFlex{
-        font-size: 2.5vh;
+        font-size: 1em;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -277,7 +277,7 @@ footer{
     .redes{
         a{
             color: white;
-            font-size: 5vh;
+            font-size: 2em;
             margin-left: 10px;
         }
         .fa-circle-chevron-up{
@@ -285,7 +285,7 @@ footer{
             position: fixed;
             right: 2vh;
             bottom: 2vh;
-            font-size: 7vh;
+            font-size: 1.3em;
             color: #ff4646;
         }
         .fa-whatsapp{
@@ -293,7 +293,7 @@ footer{
             position: fixed;
             right: 2vh;
             bottom: 10vh;
-            font-size: 8vh;
+            font-size: 1.5em;
             color: #20f03c;
         }
     }
@@ -314,7 +314,7 @@ footer{
                     .iconos{
                         color: white;
                         display: inline-block;
-                        font-size: 5vh;
+                        font-size: 1.4em;
                     }
                 }
             }
@@ -326,7 +326,7 @@ footer{
     main{
         .sectionTitulo{
             padding: 1vh;
-            font-size: 2vh;
+            font-size: 1em;
             p{
                 padding-top: 3vh;
                 font-size: 1rem;
@@ -336,7 +336,7 @@ footer{
             }
         }
         .titulo{
-            font-size: 6vh;
+            font-size: 1.6em;
         }
         .secRepTitulo{
             h2{
@@ -346,7 +346,7 @@ footer{
             }
             img{
                 padding-top: 1vh;
-                height: 16vh;
+                height: 15vh;
             }
             .ofertas{
                 padding: 0;
@@ -354,7 +354,7 @@ footer{
         }
         .marcasSec{
             h2{
-                font-size: 4vh;
+                font-size: 1.6em;
             }
             p{
                 font-size: 1.2rem;
@@ -373,7 +373,7 @@ footer{
             padding: 1vh;
             padding-top: 3vh;
             h2{
-                font-size: 5vh;
+                font-size: 1.6em;
             }
             img{
                 width: 20vh;
@@ -384,7 +384,7 @@ footer{
         }
         .ofertasSec{
             h2{
-                font-size: 5vh;
+                font-size: 1.6em;
                 padding-top: 3vh;
             }
             .ofertas{
@@ -405,7 +405,7 @@ footer{
                 /*object-fit: cover;*/
             }
             p{
-                font-size: 4vh;
+                font-size: 0.8em;
             }
         }
         .divForm{
@@ -413,7 +413,7 @@ footer{
             padding-bottom: 2vh;
             h2{
                 padding-top: 2vh;
-                font-size: 5vh;
+                font-size: 1.6em;
             }
         }
         .formCont{
@@ -433,28 +433,28 @@ footer{
             text-align: center;
         }
         .centradoFlex{
-            font-size: 2.5vh;
+            font-size: 1em;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
         }
         .logo{
-            height: 18vh;
+            height: 15vh;
         }
         .redes{
             a{
                 color: white;
-                font-size: 6vh;
+                font-size: 2em;
                 margin-left: 10px;
             }
             .fa-circle-chevron-up{
                 bottom: 2vh;
-                font-size: 5vh;
+                font-size: 1em;
             }
             .fa-whatsapp{
                 bottom: 8vh;
-                font-size: 7vh;
+                font-size: 1.3em;
             }
         }
     }
