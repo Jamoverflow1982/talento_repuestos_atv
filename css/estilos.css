@@ -307,7 +307,7 @@ footer{
         nav{
             ul{
                 li{
-                    margin-right: 1vh;
+                    margin-right: 1.2vh;
                     .mostrarLink{
                         display: none;
                     }
