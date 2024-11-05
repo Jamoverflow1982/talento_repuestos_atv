@@ -405,7 +405,15 @@ footer{
                 /*object-fit: cover;*/
             }
             p{
-                font-size: 0.8em;
+                font-size: 1.5em;
+            }
+            a{
+                width: 18vh;
+                height: 5vh;
+                font-size: 1em;
+                span{
+                font-size: 1em;
+            }
             }
         }
         .divForm{
