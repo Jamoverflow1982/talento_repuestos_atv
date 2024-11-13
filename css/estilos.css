@@ -235,6 +235,10 @@ main{
         display: flex;
         justify-content:space-between;
     }
+    .item:hover{
+        width: 36vh;
+        transition: 1s ease;
+    }
 }
 footer{
     display: flex;
